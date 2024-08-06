@@ -1,7 +1,9 @@
 export default function Contact() {
     return(
-        <section className="bg-dark-grey mt-12 px-4 md:px-12 lg:px-32 xl:px-40  lg:flex lg:justify-between">
-            <div className="border-b border-white  py-12 lg:py-24">
+        <section className="bg-dark-grey mt-12 relative px-4 md:px-12 lg:px-32 xl:px-40  lg:flex lg:justify-between">
+            <div className="border-b border-white  py-24 lg:py-32">
+            <svg className="absolute bottom-20 right-[70%] md:bottom-4 lg:right-[80%]" xmlns="http://www.w3.org/2000/svg" width="530" height="129"><g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25"><ellipse cx="265" cy="40" rx="264.5" ry="39.5"/><ellipse cx="265" cy="52" rx="264.5" ry="39.5"/><ellipse cx="265" cy="65" rx="264.5" ry="39.5"/><ellipse cx="265" cy="77" rx="264.5" ry="39.5"/><ellipse cx="265" cy="89" rx="264.5" ry="39.5"/></g>
+            </svg>
                 <div className="lg:mr-32"> 
                     <h1 className="text-center font-bold text-[40px] md:text-[72px] lg:text-[88px] text-white leading-[40px] md:leading-[72px] lg:leading-[88px] tracking-[-1.14px] md:tracking-[-2.05px] lg:tracking-[-2.5px]">Contact</h1>
                     <p className="mt-4 text-grey text-[18px] leading-[28px]">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>                
