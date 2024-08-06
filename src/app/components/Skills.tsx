@@ -47,7 +47,7 @@ export default function Skills() {
                 {skills.map(skill => (
                     <div className="my-12">
                         <h3 className="text-center md:text-start font-bold text-[32px] md:text-[48px] leading-[40px] md:leading-[56px] tracking-[-1px] md:tracking-[-1.5px] text-white">{skill.name}</h3>
-                        <p className="text-center md:text-start mt-2 font-medium text-[16px] md:text-[18px] leading-[26px] md:leading-[28px] text-grey">{skill.years} Years Experience</p>
+                        <p className="text-center md:text-start mt-2 font-medium text-[16px] md:text-[18px] leading-[26px] md:leading-[28px] text-grey">{skill.years}  Years Experience</p>
                     </div>
                 ))}                  
             </div> 

@@ -2,6 +2,11 @@ import Image from 'next/image';
 import  devjobs from "../../../public/assets/images/dev-jobs.jpg";
 import  todo from "../../../public/assets/images/Todo-App.png";
 import  quizz from "../../../public/assets/images/quizz-app.jpg";
+import  heroes from "../../../public/assets/images/heroes-app.png";
+import  todoReact from "../../../public/assets/images/todo-react.png";
+import  portfolio from "../../../public/assets/images/portfolio.jpg";
+
+
 
 
 export default function Projects() {
@@ -22,11 +27,32 @@ export default function Projects() {
         },
         {
             img: todo,
-            name: 'Todo App',
+            name: 'Todo App with Angular',
             skills: ['HTML', 'CSS', 'Angular'],
             project_url: 'https://todoapp-75160.web.app/',
             code_url: 'https://github.com/laurymesa01/todoapp-angular'
-        }
+        },
+        {
+            img: todoReact,
+            name: 'Todo App with React',
+            skills: ['HTML', 'CSS', 'React'],
+            project_url: 'https://laurymesa01.github.io/curso-react-intro/',
+            code_url: 'https://github.com/laurymesa01/curso-react-intro.git'
+        },
+        {
+            img: heroes,
+            name: 'Heroes App',
+            skills: ['HTML', 'CSS', 'Tailwind CSS', 'Angular'],
+            project_url: 'https://github.com/laurymesa01/heroes-app',
+            code_url: 'https://github.com/laurymesa01/heroes-app'
+        },
+        {
+            img: portfolio,
+            name: 'Portfolio App',
+            skills: ['HTML', 'CSS', 'Tailwind CSS', 'NextJs'],
+            project_url: '',
+            code_url: ''
+        },
     ]
 
     return(
