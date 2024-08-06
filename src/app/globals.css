@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-}
 
 @media (prefers-color-scheme: dark) {
-  :root {
-  }
+
 }
 
 body {
+  width: 100%;
+  min-width: 320px;
   background-color: #151515;
 }
 
