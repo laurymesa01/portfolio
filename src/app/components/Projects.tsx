@@ -74,14 +74,14 @@ export default function Projects() {
             img: masuno,
             name: 'Senfima App',
             skills: ['HTML', 'CSS', 'PrimeNg', 'Angular Material', 'Angular'],
-            project_url: '',
+            project_url: 'https://dev--senfima-produkto-kerno.netlify.app/',
             code_url: 'https://github.com/masunosrl/senfima_produkto_kliento'
         },
         {
             img: sceiba,
             name: 'Sceiba App',
             skills: ['HTML', 'CSS', 'Angular Material', 'Angular'],
-            project_url: '',
+            project_url: 'http://sceiba.reduniv.edu.cu',
             code_url: 'https://github.com/tocororo'
         },
     ]
@@ -90,7 +90,7 @@ export default function Projects() {
         <section className="mt-24 px-4 md:px-12 lg:px-32 xl:px-40">
             <div className="flex justify-between">
                 <h1 className="text-start font-bold text-[40px] md:text-[72px] lg:text-[88px] text-white leading-[40px] md:leading-[72px] lg:leading-[88px] tracking-[-1.14px] md:tracking-[-2.05px] lg:tracking-[-2.5px]">Projects</h1>
-                <Link href='#contact' className='uppercase text-white font-bold text-[16px] md:text-[26px]  leading-[26px] tracking-[2.29px]  underline decoration-green decoration-2 underline-offset-[20px]'>Contact me</Link>           
+                {/* <Link href='#contact' className='uppercase text-white font-bold text-[16px] md:text-[26px]  leading-[26px] tracking-[2.29px]  underline decoration-green decoration-2 underline-offset-[20px]'>Contact me</Link>            */}
             </div> 
             <div className="my-8  flex flex-col space-y-12 md:grid md:grid-cols-2  md:space-y-0 md:gap-x-4 md:gap-y-8">
                 {projects.map(project => (
