@@ -92,12 +92,23 @@ export default function Projects() {
                 <h1 className="text-start font-bold text-[40px] md:text-[72px] lg:text-[88px] text-white leading-[40px] md:leading-[72px] lg:leading-[88px] tracking-[-1.14px] md:tracking-[-2.05px] lg:tracking-[-2.5px]">Projects</h1>
                 {/* <Link href='#contact' className='uppercase text-white font-bold text-[16px] md:text-[26px]  leading-[26px] tracking-[2.29px]  underline decoration-green decoration-2 underline-offset-[20px]'>Contact me</Link>            */}
             </div> 
-            <div className="my-8  flex flex-col space-y-12 md:grid md:grid-cols-2  md:space-y-0 md:gap-x-4 md:gap-y-8">
+            <div className="my-8  flex flex-col space-y-28 md:grid md:grid-cols-2  md:space-y-0 md:gap-x-4 md:gap-y-12">
                 {projects.map(project => (
                     <div>
-                        <Image  src={project.img}
-                                alt="Picture of the job"
-                        />
+                        <div className="relative group cursor-pointer">
+                            <Image  src={project.img}
+                                    alt="Picture of the job"
+                            />
+                            <div className="hidden lg:absolute lg:inset-0 lg:flex lg:flex-col lg:space-y-12 lg:items-center lg:justify-center lg:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300">
+                                <a href={project.project_url} target='_blank'>
+                                    <button className='uppercase text-white font-bold text-[16px]  leading-[26px]  tracking-[2.29px] underline decoration-green decoration-2 underline-offset-[20px] hover:text-green'>View project</button>           
+                                </a>
+                                <a href={project.code_url} target='_blank'>
+                                    <button className='uppercase text-white font-bold text-[16px]   leading-[26px] tracking-[2.29px]  underline decoration-green decoration-2 underline-offset-[20px] hover:text-green'>View code</button>           
+                                </a>
+                            </div>
+                        </div>
+
                         <h5 className='mt-4 uppercase text-white font-bold text-[24px]  leading-[32px]'>{project.name}</h5>           
                         <div className='mt-2 flex space-x-4'>
                             {project.skills.map(skill => (
@@ -106,10 +117,10 @@ export default function Projects() {
                         </div>
                         <div className='mt-4 flex justify-between'>
                             <a href={project.project_url} target='_blank'>
-                                <h5 className='uppercase text-white font-bold text-[16px] md:text-[26px]  leading-[26px]  tracking-[2.29px] underline decoration-green decoration-2 underline-offset-[20px] xl:hidden'>View project</h5>           
+                                <h5 className='uppercase text-white font-bold text-[16px] leading-[26px]  tracking-[2.29px] underline decoration-green decoration-2 underline-offset-[20px] xl:hidden'>View project</h5>           
                             </a>
                             <a href={project.code_url} target='_blank'>
-                                <h5 className='uppercase text-white font-bold text-[16px] md:text-[26px]  leading-[26px] tracking-[2.29px]  underline decoration-green decoration-2 underline-offset-[20px] xl:hidden'>View code</h5>           
+                                <h5 className='uppercase text-white font-bold text-[16px]  leading-[26px] tracking-[2.29px]  underline decoration-green decoration-2 underline-offset-[20px] xl:hidden'>View code</h5>           
                             </a>
                         </div>
                     </div>
