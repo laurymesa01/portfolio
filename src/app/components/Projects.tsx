@@ -6,6 +6,7 @@ import  heroes from "../../../public/assets/images/heroes-app.png";
 import  todoReact from "../../../public/assets/images/todo-react.png";
 import  portfolio from "../../../public/assets/images/portfolio.jpg";
 import  planets from "../../../public/assets/images/planets-app.jpg";
+import  audiophile from "../../../public/assets/images/audiophile.jpg";
 import  masuno from "../../../public/assets/images/masuno.jpg";
 import  sceiba from "../../../public/assets/images/sceiba.jpg";
 
@@ -28,11 +29,11 @@ export default function Projects() {
             code_url: 'https://github.com/laurymesa01/quizz-app'
         },
         {
-            img: portfolio,
-            name: 'Portfolio App',
-            skills: ['HTML', 'CSS', 'Tailwind CSS', 'NextJs'],
-            project_url: '',
-            code_url: ''
+            img: audiophile,
+            name: 'Audiophile Ecommerce Website',
+            skills: ['HTML', 'CSS', 'Tailwind CSS', 'Angular'],
+            project_url: 'https://audiophile-eccomerce.web.app/',
+            code_url: 'https://github.com/laurymesa01/audiophile-ecommerce-website'
         },
         {
             img: planets,
@@ -40,6 +41,13 @@ export default function Projects() {
             skills: ['HTML', 'CSS', 'Tailwind CSS', 'Angular'],
             project_url: 'https://planets-app-cb336.web.app',
             code_url: 'https://github.com/laurymesa01/planets-fact-size'
+        },
+        {
+            img: portfolio,
+            name: 'Portfolio App',
+            skills: ['HTML', 'CSS', 'Tailwind CSS', 'NextJs'],
+            project_url: '',
+            code_url: ''
         },
         {
             img: todo,
