@@ -43,13 +43,6 @@ export default function Projects() {
             code_url: 'https://github.com/laurymesa01/planets-fact-size'
         },
         {
-            img: portfolio,
-            name: 'Portfolio App',
-            skills: ['HTML', 'CSS', 'Tailwind CSS', 'NextJs'],
-            project_url: '',
-            code_url: ''
-        },
-        {
             img: todo,
             name: 'Todo App with Angular',
             skills: ['HTML', 'CSS', 'Angular'],
@@ -98,6 +91,7 @@ export default function Projects() {
                         <div className="relative group cursor-pointer">
                             <Image  src={project.img}
                                     alt="Picture of the job"
+                                    className='group-hover:opacity-40 transition-opacity-duration-300'
                             />
                             <div className="hidden lg:absolute lg:inset-0 lg:flex lg:flex-col lg:space-y-12 lg:items-center lg:justify-center lg:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300">
                                 <a href={project.project_url} target='_blank'>

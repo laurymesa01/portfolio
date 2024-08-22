@@ -1,6 +1,24 @@
+import { useState } from "react"
+
 export default function Contact() {
+    // const [formData, setFormData] = useState({
+    //     name: '',
+    //     email: '',
+    //     message: ''
+    // });
+
+    // const handleChange = (event: any) => {
+    //     setFormData({
+    //         ...formData,
+    //         [event.target.name]: event.target.value
+    //     })
+    // }
+
+    // const handleSubmit = async (e: any) => {
+    //     e.preventDefault();
+    // }
     return(
-        <section className="bg-dark-grey mt-12 relative px-4 md:px-12 lg:px-32 xl:px-40  lg:flex lg:justify-between">
+        <section id="contact" className="bg-dark-grey mt-12 relative px-4 md:px-12 lg:px-32 xl:px-40  lg:flex lg:justify-between">
             <div className="border-b border-white  py-24 lg:py-32">
             <svg className="absolute bottom-20 right-[70%] md:bottom-4 lg:right-[80%]" xmlns="http://www.w3.org/2000/svg" width="530" height="129"><g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25"><ellipse cx="265" cy="40" rx="264.5" ry="39.5"/><ellipse cx="265" cy="52" rx="264.5" ry="39.5"/><ellipse cx="265" cy="65" rx="264.5" ry="39.5"/><ellipse cx="265" cy="77" rx="264.5" ry="39.5"/><ellipse cx="265" cy="89" rx="264.5" ry="39.5"/></g>
             </svg>

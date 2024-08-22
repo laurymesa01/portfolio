@@ -2,6 +2,7 @@ import Image from 'next/image';
 import profilePicMobile from "../../../public/assets/images/image-profile-mobile.webp";
 import profilePicTablet from "../../../public/assets/images/image-profile-tablet.webp";
 import profilePicDesktop from "../../../public/assets/images/image-profile-desktop.webp";
+import Link from 'next/link';
 
 export default function Info() {
     return(
@@ -33,7 +34,7 @@ export default function Info() {
                     Enthusiastic recent Computer Science graduate seeking an entry-level Software Engineer position to leverage my strong
                     programming foundation and problem-solving skills.
                 </p>
-                <h5 className='uppercase text-white font-bold text-[26px]  leading-[26px] tracking-[2.29px] text-center mt-6 underline decoration-green decoration-2 underline-offset-[20px] md:text-start'>Contact me</h5>           
+                {/* <Link href='#contact' className='uppercase text-white font-bold text-[26px]  leading-[26px] tracking-[2.29px] text-center mt-6 underline decoration-green decoration-2 underline-offset-[20px] md:text-start'>Contact me</Link>            */}
             </div>
 
 
