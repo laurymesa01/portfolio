@@ -29,11 +29,16 @@ Users should be able to:s
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Info Section](./1.png)
+![Skills Section](./2.png)
+![Projects Section 1](./3.png)
+![Projects Section 2](./4.png)
+![Projects Section 3](./5.png)
+![Footer](./6.png)
 
 ### Links
 
-- Live Site URL: [(https://your-live-site-url.com)]
+- Live Site URL: [(https://portfolio-nscnwn379-laura-elenas-projects.vercel.app/)]
 
 ## My process
 
