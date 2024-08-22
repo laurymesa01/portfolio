@@ -1,7 +1,5 @@
 import Image from 'next/image';
-import profilePicMobile from "../../../public/assets/images/image-profile-mobile.webp";
-import profilePicTablet from "../../../public/assets/images/image-profile-tablet.webp";
-import profilePicDesktop from "../../../public/assets/images/image-profile-desktop.webp";
+import profile from "../../../public/assets/images/profile.jpg";
 import Link from 'next/link';
 
 export default function Info() {
@@ -10,18 +8,18 @@ export default function Info() {
             <svg className="absolute top-32 right-[50%] md:top-4 md:right-[70%] lg:right-[80%]" xmlns="http://www.w3.org/2000/svg" width="530" height="129"><g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25"><ellipse cx="265" cy="40" rx="264.5" ry="39.5"/><ellipse cx="265" cy="52" rx="264.5" ry="39.5"/><ellipse cx="265" cy="65" rx="264.5" ry="39.5"/><ellipse cx="265" cy="77" rx="264.5" ry="39.5"/><ellipse cx="265" cy="89" rx="264.5" ry="39.5"/></g>
             </svg>
             <div className='relative md:col-start-2 flex justify-center'>
-                <Image  src={profilePicMobile}
+                <Image  src={profile}
                         alt="Picture of the author"
-                        className='w-[55%] md:hidden '
+                        className='w-[80%] sm:w-[55%] md:w-full xl:w-[80%]'
                 />
-                <Image  src={profilePicTablet}
+                {/* <Image  src={profilePicTablet}
                         alt="Picture of the author"
                         className='hidden absolute h-full md:inline-flex lg:hidden'
                 />
                 <Image  src={profilePicDesktop}
                         alt="Picture of the author"
                         className='hidden lg:inline-flex w-[55%]'
-                />
+                /> */}
             </div>
             
             <div className="h-auto md:col-start-1 md:row-start-1  flex flex-col items-center md:items-start mt-6 md:mt-0 ">
