@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import profile from "../../../public/assets/images/profile.jpg";
+
 import Link from 'next/link';
 
 export default function Info() {
     return(
-        <section className="h-auto relative px-4 md:px-12 lg:px-32 xl:px-40 mt-8  mx-auto p-4 grid grid-rows-2  md:grid-cols-2 md:grid-rows-1">
+        <section className="h-auto relative px-4 md:px-12 lg:px-32 xl:px-40 mt-8  mx-auto p-4 flex flex-col md:grid md:grid-cols-2 md:grid-rows-1">
             <svg className="absolute top-32 right-[50%] md:top-4 md:right-[70%] lg:right-[80%]" xmlns="http://www.w3.org/2000/svg" width="530" height="129"><g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25"><ellipse cx="265" cy="40" rx="264.5" ry="39.5"/><ellipse cx="265" cy="52" rx="264.5" ry="39.5"/><ellipse cx="265" cy="65" rx="264.5" ry="39.5"/><ellipse cx="265" cy="77" rx="264.5" ry="39.5"/><ellipse cx="265" cy="89" rx="264.5" ry="39.5"/></g>
             </svg>
             <div className='relative md:col-start-2 flex justify-center'>
