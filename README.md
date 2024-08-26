@@ -38,7 +38,7 @@ Users should be able to:s
 
 ### Links
 
-- Live Site URL: [(https://portfolio-nscnwn379-laura-elenas-projects.vercel.app/)]
+- Live Site URL: [(https://portfolio-app-three-red.vercel.app/)]
 
 ## My process
 
