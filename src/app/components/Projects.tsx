@@ -9,6 +9,8 @@ import  planets from "../../../public/assets/images/planets-app.jpg";
 import  audiophile from "../../../public/assets/images/audiophile.jpg";
 import  masuno from "../../../public/assets/images/masuno.jpg";
 import  sceiba from "../../../public/assets/images/sceiba.jpg";
+import  github from "../../../public/assets/images/github.png";
+
 
 import Link from 'next/link';
 
@@ -41,6 +43,13 @@ export default function Projects() {
             skills: ['HTML', 'CSS', 'Tailwind CSS', 'Angular'],
             project_url: 'https://planets-app-cb336.web.app',
             code_url: 'https://github.com/laurymesa01/planets-fact-size'
+        },
+        {
+            img: github,
+            name: 'GitHub Search App',
+            skills: ['HTML', 'CSS', 'Tailwind CSS', 'React', 'Next'],
+            project_url: 'https://github-user-search-app-ten-liard.vercel.app/',
+            code_url: 'https://github.com/laurymesa01/github-user-search-app'
         },
         {
             img: todo,
