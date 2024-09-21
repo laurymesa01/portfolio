@@ -10,6 +10,8 @@ import  audiophile from "../../../public/assets/images/audiophile.jpg";
 import  masuno from "../../../public/assets/images/masuno.jpg";
 import  sceiba from "../../../public/assets/images/sceiba.jpg";
 import  github from "../../../public/assets/images/github.png";
+import  password from "../../../public/assets/images/password-generator-app.png";
+
 
 
 import Link from 'next/link';
@@ -20,7 +22,7 @@ export default function Projects() {
             img: devjobs,
             name: 'Dev Jobs Web App',
             skills: ['HTML', 'CSS', 'Tailwind CSS', 'Angular'],
-            project_url: 'https://github.com/laurymesa01/devjobs-web-app',
+            project_url: 'https://dev-jobs-a43d7.web.app/',
             code_url: 'https://github.com/laurymesa01/devjobs-web-app'
         },
         {
@@ -50,6 +52,13 @@ export default function Projects() {
             skills: ['HTML', 'CSS', 'Tailwind CSS', 'React', 'Next'],
             project_url: 'https://github-user-search-app-ten-liard.vercel.app/',
             code_url: 'https://github.com/laurymesa01/github-user-search-app'
+        },
+        {
+            img: password,
+            name: 'Password Generator App',
+            skills: ['HTML', 'CSS', 'Tailwind CSS', 'React', 'Next'],
+            project_url: 'https://password-generator-app-six-fawn.vercel.app/',
+            code_url: 'https://github.com/laurymesa01/password-generator-app'
         },
         {
             img: todo,
