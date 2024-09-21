@@ -9,7 +9,7 @@ import  planets from "../../../public/assets/images/planets-app.jpg";
 import  audiophile from "../../../public/assets/images/audiophile.jpg";
 import  masuno from "../../../public/assets/images/masuno.jpg";
 import  sceiba from "../../../public/assets/images/sceiba.jpg";
-import  github from "../../../public/assets/images/github.png";
+import  github from "../../../public/assets/images/github.jpg";
 import  password from "../../../public/assets/images/password-generator-app.png";
 
 
