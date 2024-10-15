@@ -11,6 +11,7 @@ import  masuno from "../../../public/assets/images/masuno.jpg";
 import  sceiba from "../../../public/assets/images/sceiba.jpg";
 import  github from "../../../public/assets/images/github.jpg";
 import  password from "../../../public/assets/images/password-generator-app.png";
+import  countries from "../../../public/assets/images/countries.jpg";
 
 
 
@@ -45,6 +46,13 @@ export default function Projects() {
             skills: ['HTML', 'CSS', 'Tailwind CSS', 'Angular'],
             project_url: 'https://planets-app-cb336.web.app',
             code_url: 'https://github.com/laurymesa01/planets-fact-size'
+        },
+        {
+            img: countries,
+            name: 'Countries App',
+            skills: ['HTML', 'CSS', 'Tailwind CSS', 'Angular'],
+            project_url: 'https://rest-countries-23310.web.app/',
+            code_url: 'https://github.com/laurymesa01/country-app'
         },
         {
             img: github,
